@@ -12,12 +12,8 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1>Exibindo dos dados da view</h1>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <h2>Dados: <?php echo $dados; ?></h2>
-      </div>
+      <h1>Pagina inicial</h1>
+      <a href="/?pagina=login">Login</a>
     </div>
   </div>
 </body>
