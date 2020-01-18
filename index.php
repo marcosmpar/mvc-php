@@ -4,16 +4,16 @@ require "controller/HomeController.php";
 
 $pagina = isset($_GET["pagina"]) ? $_GET["pagina"] : "index";
 
-$ctrl = new HomeController();
+$controller = new HomeController();
 
 switch ($pagina) {
   case "index":
-    $ctrl->Index();
+    $controller->Index();
     break;
   case "login":
-    $ctrl->Login();
+    $controller->Login();
     break;
   case "painel":
-    $ctrl->Painel();
+    $controller->Painel();
     break;
 }

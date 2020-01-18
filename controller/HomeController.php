@@ -1,7 +1,7 @@
 <?php
 
 
-require "model/Model.php";
+require "model/UserModel.php";
 
 
 class HomeController
