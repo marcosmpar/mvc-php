@@ -1,10 +1,25 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
 
-class View
-{
-  public function Exibir($dados)
-  {
-    echo "<h1>Exibindo a view</h1>";
-    echo "<h2>Dados:" . $dados . "</h2>";
-  }
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MVC PHP</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Exibindo dos dados da view</h1>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <h2>Dados: <?php echo $dados; ?></h2>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

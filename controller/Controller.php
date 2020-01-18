@@ -2,15 +2,15 @@
 
 
 require "model/Model.php";
-require "view/View.php";
+
 
 class Controller
 {
   public function Index()
   {
     $model = new Model();
-    $view = new View();
+    $dados = $model->ListarDados();
 
-    $view->Exibir($model->ListarDados());
+    include "view/View.php";
   }
 }
